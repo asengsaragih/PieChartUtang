@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.d3ifcool.utang">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_icon_200dp"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_icon_round_200dp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".PickerActivity"
+            android:theme="@android:style/Theme.NoTitleBar">
+
+        </activity>
+        <activity android:name=".ChartActivity" />
+        <activity
+            android:name=".TentangActivity"
+            android:configChanges="orientation"
+            android:label="@string/about_application_title_name"
+            android:parentActivityName=".SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SettingActivity"
+            android:configChanges="orientation"
+            android:label="@string/setting_activity_title_name"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".HistoryActivity"
+            android:configChanges="orientation"
+            android:label="@string/history_activity_title_name"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FormActivity"
+            android:configChanges="orientation"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".database.Provider"
+            android:authorities="org.d3ifcool.utang"
+            android:exported="false" />
+    </application>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+</manifest>

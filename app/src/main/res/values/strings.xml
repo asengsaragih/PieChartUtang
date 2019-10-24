@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">Utang</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dipinjam">Dipinjam</string>
+    <string name="meminjam">Meminjam</string>
+
+    <string name="tanggal_peminjaman">Tanggal Peminjaman</string>
+    <string name="nama">Nama</string>
+    <string name="jumlah">Jumlah</string>
+    <string name="jatuh_tempo">Jatuh Tempo</string>
+    <string name="keterangan">Keterangan</string>
+
+    <string name="tombol_tambah">Tambah Data</string>
+    <string name="tombol_perbaruhi">Perbaruhi Data</string>
+    <string name="tombol_hapus">Hapus Data</string>
+
+    <string name="tombol_hapus_jatuh_tempo">X</string>
+
+    <string name="opsional">Opsional</string>
+    <string name="data_kosong">Data Masih Kosong \n Tekan Tombol Tambah Untuk Menambah Data</string>
+    <string name="total_dipinjam">Total Dipinjam : </string>
+    <string name="total_meminjam">Total Meminjam : </string>
+
+    <string name="form_activity_title_new_data">Tambah Utang</string>
+    <string name="form_activity_title_edit_data">Sunting Utang</string>
+
+    <string name="form_data_empty_warning">Nama Dan Jumlah Tidak Boleh Kosong</string>
+    <string name="form_data_empty_total">Jumlah harus diatas 1000</string>
+
+    <string name="form_activity_insert_failed">Gagal Menambah Data</string>
+    <string name="form_activity_insert_success">Berhasil Memasukkan Data</string>
+    <string name="form_activity_update_failed">Gagal Memperbaruhi Data</string>
+    <string name="form_activity_update_success">Berhasil Memperbaruhi Data</string>
+    <string name="form_activity_delete_dialog_message">Apakah Anda Ingin Menghapus Data Ini ?</string>
+    <string name="form_activity_unsaved_dialog_message">Apakah Anda Ingin Meninggalkan Halaman Ini ?</string>
+
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+
+    <string name="form_activity_delete_failed">Gagal Menghapus Data</string>
+    <string name="form_activity_delete_success">Berhasil Menghapus Data</string>
+
+    <string name="history_activity_title_name">Riwayat Utang</string>
+    <string name="empty_keterangan">-</string>
+    <string name="edit">Sunting</string>
+    <string name="mark_as_done">Tandai Selesai</string>
+    <string name="main_activity_update_success">Behasil Memperbaruhi Data</string>
+    <string name="main_activity_update_failed">Gagal Memperbaruhi Data</string>
+
+    <string name="setting_activity_warning_text">Selalu ekspor data anda secara berkala</string>
+    <string name="setting_activity_title_data">Impor dan Ekspor</string>
+
+    <string name="setting_activity_warning_delete_button">X</string>
+
+    <string name="setting_activity_export_drive">Ekspor ke Drive</string>
+    <string name="setting_activity_export_phone">Ekspor ke Ponsel</string>
+    <string name="setting_activity_export_csv">Ekspor ke CSV</string>
+    <string name="setting_activity_import_data">Import data ke aplikasi</string>
+    <string name="setting_activity_title_about">Tentang</string>
+
+    <string name="setting_activity_about_application">Tentang Aplikasi</string>
+    <string name="permission_denied">Permisi Ditolak</string>
+    <string name="permission_granted">Permisi Berhasil</string>
+    <string name="export_phone_success">Ekspor berhasil \"/Utang/Utang.db\"</string>
+    <string name="setting_activity_warning_export_message">Apakah anda ingin menghapus data yang lama dan menggantinya dengan data yang baru ?</string>
+    <string name="setting_activity_warning_export_title">Data Sebelumnya Terdeteksi</string>
+    <string name="export_phone_failed">Gagal ekspor data</string>
+    <string name="empty_jatuh_tempo">-</string>
+
+    <string name="detail_title">Detail Utang</string>
+    <string name="detail_total_cicilan">Jumlah Cicilan</string>
+
+    <string name="detail_button_cicil_title">Cicil Utang</string>
+    <string name="detail_button_mark_as_done_title">Tandai Selesai</string>
+    <string name="detail_button_edit_title">Sunting</string>
+
+    <string name="detail_button_done">Cicil</string>
+    <string name="detail_button_cancle">Batalkan</string>
+    <string name="phone">Kontak Ponsel</string>
+    <string name="add_phone">Tambahkan Nomor Kontak</string>
+    <string name="tombol_hapus_phone">X</string>
+    <string name="setting_activity_title_name">Pengaturan Utang</string>
+    <string name="phone_number">Nomor Ponsel</string>
+    <string name="detail_button_message">Kirimkan Pesan</string>
+    <string name="detail_button_call">Hubungi Via Telepon</string>
+    <string name="history_detail_title">Riwayat Utang</string>
+    <string name="overwrite">Ganti</string>
+    <string name="export_csv_success">Ekspor CSV berhasil \"Utang/data.csv\"</string>
+    <string name="cancle">Batal</string>
+    <string name="select_item">Pilih File</string>
+    <string name="picker_title">Masukkan File Lawas</string>
+    <string name="warning_open_file_chooser">Silahkan instal file manager terlebih dahulu</string>
+    <string name="wrong_file">File bukan berasal dari Utang Apps</string>
+    <string name="setting_activity_about_developer">Tentang Developer</string>
+    <string name="setting_activity_about_criticism_suggestions">Masukan dan Saran</string>
+    <string name="about_application_title_name">Tentang Aplikasi</string>
+    <string name="about_application_content">Aplikasi Utang merupakan sebuah aplikasi yang dapat membantu pengguna dalam melakukan pencatatan utang maupun piutang secara pribadi. Aplikasi ini memungkinkan pengguna tidak perlu lagi melakukan pencatatan utang secara manual dibuku. Dalam aplikasi ini terdapat fitur seperti pencatatan utang-piutang, riwayat transaksi, dan backup data. Selain itu aplikasi ini juga dapat terhubung langsung ke kontak telepon si peminjam sehingga mempermudah user dalam mengingatkannya. Aplikasi ini akan mencatat kapan, berapa, dan dari atau kepada siapa utang dipinjamkan.</string>
+    <string name="about_application_version">Versi 1.0</string>
+    <string name="about_developer_title_name">Tentang Developer</string>
+
+    <string name="devi">Deviana Rahmadhani Sofyan</string>
+    <string name="rolina">Ni Made Ria Rolina</string>
+    <string name="aldi">Aldi Wahyu Saragih</string>
+    <string name="data_kosong_tanpa_tombol">Data Masih Kosong</string>
+    <string name="file_not_found">File Tidak Ada</string>
+    <string name="setting_activity_import_title">Masukkan Data Lawas Dengan Format CSV</string>
+    <string name="choose">Pilih Data</string>
+    <string name="wrong_extension">Format File Harus CSV</string>
+    <string name="setting_activity_success_import">Berhasil Import Data</string>
+
+    <string name="chart_activity_month_jan">Jan</string>
+    <string name="chart_activity_month_feb">Feb</string>
+    <string name="chart_activity_month_mar">Mar</string>
+    <string name="chart_activity_month_apr">Apr</string>
+    <string name="chart_activity_month_may">Mei</string>
+    <string name="chart_activity_month_jun">Jun</string>
+    <string name="chart_activity_month_jul">Jul</string>
+    <string name="chart_activity_month_aug">Aug</string>
+    <string name="chart_activity_month_sep">Sep</string>
+    <string name="chart_activity_month_oct">Okt</string>
+    <string name="chart_activity_month_nov">Nov</string>
+    <string name="chart_activity_month_dec">Des</string>
+
+    <string name="next"><![CDATA[>]]></string>
+    <string name="pref"><![CDATA[<]]></string>
+    <string name="chart_activity_all_time">Seluruh Waktu</string>
+    <string name="not_yet_paid_off">Belum Lunas</string>
+    <string name="paid_off">Lunas</string>
+
+    <string name="month_jan">Januari</string>
+    <string name="month_feb">Februari</string>
+    <string name="month_mar">Maret</string>
+    <string name="month_apr">April</string>
+    <string name="month_may">Mei</string>
+    <string name="month_jun">Juni</string>
+    <string name="month_jul">Juli</string>
+    <string name="month_aug">Agustus</string>
+    <string name="month_sep">September</string>
+    <string name="month_oct">Oktober</string>
+    <string name="month_nov">November</string>
+    <string name="month_dec">Desember</string>
+</resources>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/button_picker_month_jan"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/chart_activity_month_jan"
+        app:layout_constraintEnd_toStartOf="@+id/button_picker_month_feb"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+
+    <Button
+        android:id="@+id/button_picker_month_feb"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:text="@string/chart_activity_month_feb"
+        app:layout_constraintEnd_toStartOf="@+id/button_picker_month_mar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_picker_month_jan"
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+
+    <Button
+        android:id="@+id/button_picker_month_mar"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:text="@string/chart_activity_month_mar"
+        app:layout_constraintEnd_toStartOf="@+id/button_picker_month_apr"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_picker_month_feb"
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+
+    <Button
+        android:id="@+id/button_picker_month_apr"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:text="@string/chart_activity_month_apr"
+        app:layout_constraintEnd_toStartOf="@+id/button_picker_month_may"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_picker_month_mar"
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+
+    <Button
+        android:id="@+id/button_picker_month_may"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:text="@string/chart_activity_month_may"
+        app:layout_constraintEnd_toStartOf="@+id/button_picker_month_jun"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_picker_month_apr"
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+
+    <Button
+        android:id="@+id/button_picker_month_jun"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/chart_activity_month_jun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_picker_month_may"
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+
+    <Button
+        android:id="@+id/button_picker_month_jul"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/chart_activity_month_jul"
+        app:layout_constraintEnd_toStartOf="@+id/button_picker_month_aug"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_picker_month_jan" />
+
+    <Button
+        android:id="@+id/button_picker_month_aug"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/chart_activity_month_aug"
+        app:layout_constraintEnd_toStartOf="@+id/button_picker_month_sep"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_picker_month_jul"
+        app:layout_constraintTop_toBottomOf="@+id/button_picker_month_feb" />
+
+    <Button
+        android:id="@+id/button_picker_month_sep"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/chart_activity_month_sep"
+        app:layout_constraintEnd_toStartOf="@+id/button_picker_month_oct"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_picker_month_aug"
+        app:layout_constraintTop_toBottomOf="@+id/button_picker_month_mar" />
+
+    <Button
+        android:id="@+id/button_picker_month_oct"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/chart_activity_month_oct"
+        app:layout_constraintEnd_toStartOf="@+id/button_picker_month_nov"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_picker_month_sep"
+        app:layout_constraintTop_toBottomOf="@+id/button_picker_month_apr" />
+
+    <Button
+        android:id="@+id/button_picker_month_nov"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/chart_activity_month_nov"
+        app:layout_constraintEnd_toStartOf="@+id/button_picker_month_dec"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_picker_month_oct"
+        app:layout_constraintTop_toBottomOf="@+id/button_picker_month_may" />
+
+    <Button
+        android:id="@+id/button_picker_month_dec"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/chart_activity_month_dec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_picker_month_nov"
+        app:layout_constraintTop_toBottomOf="@+id/button_picker_month_jun" />
+
+    <Button
+        android:id="@+id/button_picker_next"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/next"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView_picker_year"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_picker_pref"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/pref"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/textView_picker_year"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_picker_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/chart_activity_all_time"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_picker_month_jul" />
+
+    <TextView
+        android:id="@+id/textView_picker_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/button_picker_next"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_picker_pref"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="2019" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.30" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
